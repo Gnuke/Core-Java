@@ -1,0 +1,17 @@
+
+public class RandomDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 1~10 까지의 랜덤 넘버 추출
+		int rand = (int)/* Math.random() 은 double을 반환 */(Math.random() * 10 + 1);
+		switch(rand) {
+			case 1: System.out.println( "Bananas" ); break;
+			case 2:
+			case 3:
+			case 4:
+			case 5:
+		}
+	}
+
+}

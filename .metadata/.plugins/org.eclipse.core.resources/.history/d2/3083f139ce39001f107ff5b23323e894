@@ -1,0 +1,11 @@
+
+public class VariableDemo {
+	public static void main(String[] args) {
+//		String name; // 변수 선언 Variable Declaration
+//		name = "한지민"; // Assignment
+//		String email = "aaa@aaa.com"; // Initialization
+//		int su = 5;
+		
+		System.out.printf("숫자 500 = %d\n", 500);
+	}
+}

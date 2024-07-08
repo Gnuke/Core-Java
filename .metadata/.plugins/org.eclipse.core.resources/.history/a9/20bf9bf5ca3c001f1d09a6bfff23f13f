@@ -1,0 +1,22 @@
+
+public class Practice01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int i = 65;
+		int count = 1;
+		
+		for( ;i<=90;) {
+			System.out.printf( "%c\t", (char)i );
+			
+			if( count % 5 == 0 ) {
+				System.out.println();
+			}
+			
+			count++;
+			i++;
+		}
+	}
+
+}

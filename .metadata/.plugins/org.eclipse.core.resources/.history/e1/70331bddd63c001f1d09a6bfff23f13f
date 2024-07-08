@@ -1,0 +1,13 @@
+
+public class Student {
+
+	// Field, 객체지향 -> 속성(Attribute, Property, State)
+	학번;
+	국어;
+	영어;
+	수학;
+	총점;
+	평균;
+	평점;
+
+}

@@ -1,0 +1,14 @@
+
+public class VariableDemo {
+
+	int eng = 100; // method 밖, static x -> instance variable
+	static int math = 80; // class variable
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 변수 3가지 이유 - 목적과 생성 위치가 다르기 때문
+		int kor = 90; // local variable
+		
+	}
+
+}

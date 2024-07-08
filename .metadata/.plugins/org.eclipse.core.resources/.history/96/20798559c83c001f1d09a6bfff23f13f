@@ -1,0 +1,10 @@
+
+public class RandomDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 1~10 까지의 랜덤 넘버 추출
+		int rand = (int)(Math.random()/* Math.random() 은 double을 반환 */ 10 + 1);
+	}
+
+}

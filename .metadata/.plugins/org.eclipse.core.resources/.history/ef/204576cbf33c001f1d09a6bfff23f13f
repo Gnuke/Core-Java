@@ -1,0 +1,10 @@
+
+public class ProductMgnt {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Product pencil = new Product();
+		pencil.name = "모나미";
+	}
+
+}

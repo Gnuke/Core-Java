@@ -1,0 +1,10 @@
+
+public class SungjukManagement {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Student chulsu = new Student(); // 참조형 = 8byte
+		java.util.Scanner sc = new java.util.Scanner(System.in);
+	}
+
+}

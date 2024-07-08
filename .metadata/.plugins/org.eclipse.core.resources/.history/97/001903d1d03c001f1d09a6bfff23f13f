@@ -1,0 +1,12 @@
+
+public class Practice02 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int i = 65; // i initialization
+		for(;i<=90;) {
+			i++;
+		}
+	}
+
+}

@@ -1,0 +1,18 @@
+
+public class Practice02 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int i = 65; // i initialization
+		for(;i<=90;) {
+			int j = i;// j initialization
+			for(;j<i;) {
+				System.out.print( (char)i );
+				j--;
+			}
+			System.out.println();
+			i++;
+		}
+	}
+
+}
