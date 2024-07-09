@@ -16,6 +16,7 @@ public class MethodDemo3 {
 		if( su % 2 ==0 ) return "aaa";
 		else {
 			System.out.println("Hello, World");
+			return "bbb";
 		}// 가능
 	}
 }

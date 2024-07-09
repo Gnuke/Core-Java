@@ -1,22 +1,30 @@
+/*
+ * Method를 호출하는 방법 3가지
+ * 2) Call( Pass ) by Value
+ *  
+ */
 
 public class MethodDemo4 {
 
 	public static void main(String[] args) {
+		// TODO Auto-generated method stub
 		MethodDemo4 md = new MethodDemo4();
-		md.print();
+		int result = md.calcHap( 10, 50 );
+		System.out.println( result );
+		
+		result = md.calcHap( 1, 50 );
+		System.out.println( result );
+		
+		result = md.calcHap( 10, 500 );
+		System.out.println( result );
 	}
 	
-	String print() { // member method
-//		System.out.println( "Hello" );
-//		return "aa"; // return으로 method가 완료됐기 때문에
-//		System.out.println( "Hello" ); // unreachable error 발생
-		// 사용하려면
-		int su = 5;
-		System.out.println( "hello" );
-		if( su % 2 ==0 ) return "aaa";
-		else {
-			System.out.println("Hello, World");
-		}// 가능
+	int calcHap( int start, int end ){ // member method -> 주소로 접근
+		int hap = 0;
+		
+		for( int i = start; i <= end; i++ ) hap += i;
+		
+		return hap;
 	}
 }
  
