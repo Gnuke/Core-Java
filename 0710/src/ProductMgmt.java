@@ -1,13 +1,15 @@
 
 public class ProductMgmt {
 
-	public static void main(String[] args) {
+	public static void main(String[] args)  throws java.io.IOException{
 		// TODO Auto-generated method stub
-		Product info = new Product();
+		Product [] array = new Product[7];
 		
-		new ProductInput().input(info);
+		new ProductInput().input(array);
 		
-		new ProductCalc().calc(info);
+		new ProductCalc().calc(array);
+		
+		new ProductOutput().output(array);
 	}
 
 }
