@@ -2,7 +2,7 @@
 public class ProductInput {
 
 	public void input( Product[] array ) {
-		try (java.util.Scanner sc = new java.util.Scanner(System.in)) {
+		java.util.Scanner sc = new java.util.Scanner(System.in);
 			//String y_n=null;
 			int i = 0;
 			
@@ -26,7 +26,7 @@ public class ProductInput {
 		} // 입력 되는 지 검사
 			
 		sc.close();
-		}
+		
 	}
 
 }
