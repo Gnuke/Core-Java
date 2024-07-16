@@ -1,0 +1,15 @@
+/*
+ * @author Gnuke
+ * @version 1.0.0
+ * @since jdk 17
+ * */
+public enum Season {
+	spring(5), summer(100), fall(1000), winter(30_000_000); // 앞에 public static final이 생략
+	private int value;
+	Season( int value ){
+		this.value = value;
+	}
+	public int getValue(){
+		return this.value;
+	}
+}
