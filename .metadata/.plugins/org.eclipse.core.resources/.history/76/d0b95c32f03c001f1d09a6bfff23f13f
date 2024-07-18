@@ -1,9 +1,0 @@
-
-public class SunjukManagement1 {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		Student [] array = new Student[2];
-	}
-
-}
