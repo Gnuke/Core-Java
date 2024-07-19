@@ -1,17 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="Demo"/>
-    <fullyQualifiedTypeName name="Parent"/>
-    <fullyQualifiedTypeName name="Child"/>
-    <fullyQualifiedTypeName name="PolymorphismDemo2"/>
-    <fullyQualifiedTypeName name="Cat"/>
-    <fullyQualifiedTypeName name="American"/>
-    <fullyQualifiedTypeName name="Korean"/>
-    <fullyQualifiedTypeName name="Base"/>
-    <fullyQualifiedTypeName name="Tiger"/>
-    <fullyQualifiedTypeName name="급여계산기.Person"/>
-    <fullyQualifiedTypeName name="Normal"/>
-    <fullyQualifiedTypeName name="AbstractDemo"/>
     <fullyQualifiedTypeName name="Mammal"/>
     <fullyQualifiedTypeName name="InterfaceDemo.Cat"/>
     <fullyQualifiedTypeName name="GrandFather"/>
@@ -32,7 +20,6 @@
     <fullyQualifiedTypeName name="StaticDemo2"/>
     <fullyQualifiedTypeName name="Season"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.io.File"/>
     <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
     <fullyQualifiedTypeName name="java.lang.NegativeArraySizeException"/>
     <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
@@ -47,7 +34,6 @@
     <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="java.util.Vector"/>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="java.lang.Number"/>
     <fullyQualifiedTypeName name="Product"/>
     <fullyQualifiedTypeName name="java.lang.Double"/>
@@ -55,9 +41,23 @@
     <fullyQualifiedTypeName name="java.util.TreeSet"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.HashSet"/>
-    <fullyQualifiedTypeName name="java.util.Iterator"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="java.util.Hashtable"/>
     <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="java.util.StringTokenizer"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.BeforeEach"/>
+    <fullyQualifiedTypeName name="MyInterface"/>
+    <fullyQualifiedTypeName name="Comparable"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
+    <fullyQualifiedTypeName name="MyPolygon"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.stream.Stream"/>
+    <fullyQualifiedTypeName name="java.util.stream.DoubleStream"/>
+    <fullyQualifiedTypeName name="java.util.stream.IntStream"/>
 </qualifiedTypeNameHistroy>
